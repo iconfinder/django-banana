@@ -21,11 +21,16 @@ To install ``django_banana``, do yourself a favor and don't use anything other t
 
    $ pip install django-banana
 
-Add ``django_banana`` to the list of installed apps in your settings file:
+Add ``django_banana`` to the list of installed apps and add the ``ExperimentsMiddleware`` class to the list of middleware in your settings file:
 
 .. code-block:: python
 
    INSTALLED_APPS = (
        'django_banana',
+       ..
+   )
+
+   MIDDLEWARE_CLASSES = (
+       'django_banana.middleware.ExperimentsMiddleware',
        ..
    )
