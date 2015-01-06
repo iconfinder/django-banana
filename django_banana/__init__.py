@@ -7,3 +7,10 @@ the built-in Django sessions.
 
 Note: yes, the name is awesome.
 """
+
+from .option import Option
+
+
+__all__ = (
+    Option.__name__,
+)
