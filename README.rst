@@ -1,3 +1,5 @@
+.. image:: https://cdn2.iconfinder.com/data/icons/indeepop_iconspack_/256/yammi_banana.png
+
 django_banana - Delicious split testing for Django
 ==================================================
 
